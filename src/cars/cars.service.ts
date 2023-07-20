@@ -64,4 +64,7 @@ delete(id: string) {
   this.cars = this.cars.filter(car => car.id !== id);
   
 }
+fillCarsWithSeedData(cars: Car[]){
+  this.cars = cars;
+}
 }
